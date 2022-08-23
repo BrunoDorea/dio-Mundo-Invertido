@@ -3,14 +3,14 @@
 </h1>
 
 <p align="center">
-  <a href="#">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://mundoinvertido-brunoh.netlify.app/">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
-<a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/be15a1c8-5e85-438a-b794-83214d0e872d"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/be15a1c8-5e85-438a-b794-83214d0e872d.svg" alt="wakatime"></a>
+<a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/d481ab84-79f7-41ea-a466-ba3183802494"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/d481ab84-79f7-41ea-a466-ba3183802494.svg" alt="wakatime"></a>
 </p>
 
 ## 🚀 Tecnologias
