@@ -47,11 +47,28 @@
   --footer-background-color: #000;
 }
 
-/*** GENERIC STYLES ***/
+.dark-theme button,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3 {
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+.dark-theme .invert-element {
+  transform: rotateZ(180deg) scaleX(-1);
+}
+
+/***  GENERIC STYLES ***/
+
 * {
   margin: 0;
   box-sizing: border-box;
-  transition: 1s;
+  transition: 2s;
+}
+
+body {
+  background: var(--page-background);
 }
 
 h1,
@@ -84,6 +101,25 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transition: background 1s;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--page-background) no-repeat,
+    url("../assets/images/backgrounds/florest.png") no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 input,
@@ -183,26 +219,6 @@ header::before {
 
   mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
-}
-
-/*  */
-main {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-main::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: var(--page-background) no-repeat,
-    url("../images/backgrounds/florest.png") no-repeat;
-  background-size: cover;
-  z-index: -1;
 }
 
 /*** SECTIONS STYLES ***/
@@ -390,7 +406,7 @@ footer::after {
   content: "";
   width: 300px;
   height: 200px;
-  background: url("../images/footer/tape.svg") no-repeat;
+  background: url("../assets/images/footer/tape.svg") no-repeat;
   background-size: contain;
   position: absolute;
   bottom: -30px;
